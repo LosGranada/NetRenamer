@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7sUD416UeNrAYt4ScC/efqEfG1u49A+RJv1RPDQ6njG+N3BvEb/p1Gn1PQjVSOrtlK3XBHSKf/bZAtJpoWcCeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LosGranada\\Desktop\\NetRenamer-main\\NetRenamer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LosGranada\\.nuget\\packages\\asmresolver\\4.7.1\\asmresolver.4.7.1.nupkg.sha512",
+    "C:\\Users\\LosGranada\\.nuget\\packages\\asmresolver.dotnet\\4.7.1\\asmresolver.dotnet.4.7.1.nupkg.sha512",
+    "C:\\Users\\LosGranada\\.nuget\\packages\\asmresolver.pe\\4.7.1\\asmresolver.pe.4.7.1.nupkg.sha512",
+    "C:\\Users\\LosGranada\\.nuget\\packages\\asmresolver.pe.file\\4.7.1\\asmresolver.pe.file.4.7.1.nupkg.sha512",
+    "C:\\Users\\LosGranada\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

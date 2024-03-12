@@ -1,0 +1,98 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AsmResolver/4.7.1": {
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.dll": {
+            "assemblyVersion": "4.7.1.0",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
+      "AsmResolver.DotNet/4.7.1": {
+        "dependencies": {
+          "AsmResolver.PE": "4.7.1",
+          "System.Text.Json": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.DotNet.dll": {
+            "assemblyVersion": "4.7.1.0",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
+      "AsmResolver.PE/4.7.1": {
+        "dependencies": {
+          "AsmResolver.PE.File": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.PE.dll": {
+            "assemblyVersion": "4.7.1.0",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
+      "AsmResolver.PE.File/4.7.1": {
+        "dependencies": {
+          "AsmResolver": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.PE.File.dll": {
+            "assemblyVersion": "4.7.1.0",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
+      "System.Text.Json/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsmResolver/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GNwrqiQwJgOdXENnFLL16UW8V5MttZsPk7iMjLwfK47E+MwIKh5SEbpMWBFF5q3nuDEf1+5HSiOMLy0DiqjCEg==",
+      "path": "asmresolver/4.7.1",
+      "hashPath": "asmresolver.4.7.1.nupkg.sha512"
+    },
+    "AsmResolver.DotNet/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NAOplzN4NbcGkLu4Q/NXGwHraJ1L/165rFqHGazhwb95k842YNruZkhUCCJjmLu7pVLG9XAhfMQK3s+5FdwZYw==",
+      "path": "asmresolver.dotnet/4.7.1",
+      "hashPath": "asmresolver.dotnet.4.7.1.nupkg.sha512"
+    },
+    "AsmResolver.PE/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XgDuX84ik3YQCbhfjR2j8XzI4GoFwrieua5WypV8dIjizJFWYu1NOoAK/xNbVlNbCXPakS9NYTUTONu453zvUg==",
+      "path": "asmresolver.pe/4.7.1",
+      "hashPath": "asmresolver.pe.4.7.1.nupkg.sha512"
+    },
+    "AsmResolver.PE.File/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FLB74Eeozm0BaqURJF+bHrGp/UlW/gOEUBWoKF0IPXfXFuxW1bddkIEIFwhzQ9KTugMrGj8zDKMeWxUi2/SeRQ==",
+      "path": "asmresolver.pe.file/4.7.1",
+      "hashPath": "asmresolver.pe.file.4.7.1.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "path": "system.text.json/5.0.0",
+      "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    }
+  }
+}

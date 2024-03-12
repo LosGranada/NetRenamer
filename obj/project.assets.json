@@ -1,0 +1,235 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "AsmResolver/4.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AsmResolver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsmResolver.DotNet/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver.PE": "4.7.1",
+          "System.Text.Json": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AsmResolver.DotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.DotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsmResolver.PE/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver.PE.File": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/AsmResolver.PE.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.PE.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsmResolver.PE.File/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/AsmResolver.PE.File.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsmResolver.PE.File.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Json/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsmResolver/4.7.1": {
+      "sha512": "GNwrqiQwJgOdXENnFLL16UW8V5MttZsPk7iMjLwfK47E+MwIKh5SEbpMWBFF5q3nuDEf1+5HSiOMLy0DiqjCEg==",
+      "type": "package",
+      "path": "asmresolver/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asmresolver.4.7.1.nupkg.sha512",
+        "asmresolver.nuspec",
+        "lib/netstandard2.0/AsmResolver.dll",
+        "lib/netstandard2.0/AsmResolver.xml"
+      ]
+    },
+    "AsmResolver.DotNet/4.7.1": {
+      "sha512": "NAOplzN4NbcGkLu4Q/NXGwHraJ1L/165rFqHGazhwb95k842YNruZkhUCCJjmLu7pVLG9XAhfMQK3s+5FdwZYw==",
+      "type": "package",
+      "path": "asmresolver.dotnet/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asmresolver.dotnet.4.7.1.nupkg.sha512",
+        "asmresolver.dotnet.nuspec",
+        "lib/netstandard2.0/AsmResolver.DotNet.dll",
+        "lib/netstandard2.0/AsmResolver.DotNet.xml"
+      ]
+    },
+    "AsmResolver.PE/4.7.1": {
+      "sha512": "XgDuX84ik3YQCbhfjR2j8XzI4GoFwrieua5WypV8dIjizJFWYu1NOoAK/xNbVlNbCXPakS9NYTUTONu453zvUg==",
+      "type": "package",
+      "path": "asmresolver.pe/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asmresolver.pe.4.7.1.nupkg.sha512",
+        "asmresolver.pe.nuspec",
+        "lib/netstandard2.0/AsmResolver.PE.dll",
+        "lib/netstandard2.0/AsmResolver.PE.xml"
+      ]
+    },
+    "AsmResolver.PE.File/4.7.1": {
+      "sha512": "FLB74Eeozm0BaqURJF+bHrGp/UlW/gOEUBWoKF0IPXfXFuxW1bddkIEIFwhzQ9KTugMrGj8zDKMeWxUi2/SeRQ==",
+      "type": "package",
+      "path": "asmresolver.pe.file/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asmresolver.pe.file.4.7.1.nupkg.sha512",
+        "asmresolver.pe.file.nuspec",
+        "lib/netstandard2.0/AsmResolver.PE.File.dll",
+        "lib/netstandard2.0/AsmResolver.PE.File.xml"
+      ]
+    },
+    "System.Text.Json/5.0.0": {
+      "sha512": "+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "type": "package",
+      "path": "system.text.json/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.0.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "AsmResolver.DotNet >= 4.7.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LosGranada\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\LosGranada\\Desktop\\NetRenamer-main\\NetRenamer.csproj",
+      "projectName": "NetRenamer",
+      "projectPath": "C:\\Users\\LosGranada\\Desktop\\NetRenamer-main\\NetRenamer.csproj",
+      "packagesPath": "C:\\Users\\LosGranada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LosGranada\\Desktop\\NetRenamer-main\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LosGranada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "AsmResolver.DotNet": {
+            "target": "Package",
+            "version": "[4.7.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
